@@ -28,15 +28,7 @@
           <name>sample_snapshots</name>
          <url>http://18.188.163.185:8081/repository/nexus_spring_snapshots/</url>
        </snapshotRepository>
-  <exclusions>
-    <exclusion>
-      <repository>
-        <id>releases</id>
-        <name>sample_releases</name>
-        <url>http://18.188.163.185:8081/repository/nexus_spring/</url>
-      </repository>
-    </exclusion>
-    </exclusions>
+  
        
        
  </distributionManagement>
@@ -48,5 +40,14 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <exclusions>
+    <exclusion>
+      <repository>
+        <id>releases</id>
+        <name>sample_releases</name>
+        <url>http://18.188.163.185:8081/repository/nexus_spring/</url>
+      </repository>
+    </exclusion>
+    </exclusions>
   </dependencies>
 </project>
