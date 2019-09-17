@@ -4,7 +4,7 @@
 
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
-  <version>0.0.9</version>
+  <version>0.0.9-SNAPSHOTS</version>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
@@ -28,11 +28,7 @@
           <name>sample_snapshots</name>
          <url>http://18.188.163.185:8081/repository/nexus_spring_snapshots/</url>
        </snapshotRepository>
-       <repository>
-         <id>releases</id>
-          <name>sample_release</name>
-         <url>http://18.188.163.185:8081/repository/nexus_spring/</url>
-       </repository>
+       
        
  </distributionManagement>
 
