@@ -24,12 +24,12 @@
          <url>file:///var/lib/jenkins/test/</url>
        </repository>
         <snapshotRepository>
-         <id>deployment</id>
+         <id>snapshots</id>
           <name>sample_snapshots</name>
          <url>http://18.188.163.185:8081/repository/nexus_spring_snapshots/</url>
        </snapshotRepository>
        <repository>
-         <id>deployment</id>
+         <id>releases</id>
           <name>sample_release</name>
          <url>http://18.188.163.185:8081/repository/nexus_spring/</url>
        </repository>
