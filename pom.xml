@@ -23,10 +23,11 @@
          <name>Internal repo</name>
          <url>file:///var/lib/jenkins/test/</url>
        </repository>
-        <releases>
-         <id>nexus_spring_snapshots</id>
+        <snapshotRepository>
+         <id>deployment</id>
+          <name>sample_snapshots</name>
          <url>http://18.188.163.185:8081/repository/nexus_spring_snapshots/</url>
-       </releases>
+       <snapshotRepository>
        
  </distributionManagement>
 
