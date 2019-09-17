@@ -24,8 +24,8 @@
          <url>file:///var/lib/jenkins/test/</url>
        </repository>
         <releases>
-         <id>nexus-releases</id>
-         <url>http://18.219.119.223:8081/repository/nexus_spring/</url>
+         <id>nexus_spring_snapshots</id>
+         <url>http://18.188.163.185:8081/repository/nexus_spring_snapshots/</url>
        </releases>
        
  </distributionManagement>
