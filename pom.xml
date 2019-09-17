@@ -31,7 +31,7 @@
        <releasetRepository>
          <id>deployment</id>
           <name>sample_release</name>
-         <url>http://18.188.163.185:8081/repository/nexus_spring//</url>
+         <url>http://18.188.163.185:8081/repository/nexus_spring/</url>
        </releaseRepository>
        
  </distributionManagement>
