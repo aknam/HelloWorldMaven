@@ -24,16 +24,18 @@
          <name>Internal repo</name>
          <url>file:///var/lib/jenkins/test/</url>
        </repository>
-    <snapshotRepository>
+    
+ </distributionManagement>
+<repositories>
+  <repository>
       <id>nexus-snapshots</id>
       <url>http://18.189.14.62:8081/repository/nexus_spring_snapshots/</url>
-    </snapshotRepository>
-    <repository>
+  </repository>
+  <repository>
       <id>nexus-releases</id>
       <url>http://18.189.14.62:8081/repository/nexus_spring/</url>
-    </repository>
- </distributionManagement>
-
+  </repository>
+</repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
