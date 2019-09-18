@@ -6,28 +6,7 @@
   <artifactId>HelloWorldMaven</artifactId>
   <version>0.0.9</version>
   <packaging>jar</packaging>
-  <build>
-    <plugins>
-        <plugin>
-            <groupId>com.test</groupId>
-            <artifactId>HelloWorldMaven</artifactId>
-            <version>0.0.9</version>
-            <executions>
-                  <execution>
-                     <id>default-deploy</id>
-                     <phase>deploy</phase>
-                     <goals>
-                        <goal>deploy</goal>
-                     </goals>
-                  </execution>
-               </executions>
-               <configuration>
-                  <id>nexus-releases</id>
-                  <skipStaging>true</skipStaging>
-               </configuration>
-        </plugin>
-    </plugins>
-</build>
+  
 
   <name>HelloWorldMaven</name>
   <url>http://maven.apache.org</url>
