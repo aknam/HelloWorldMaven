@@ -6,6 +6,19 @@
   <artifactId>HelloWorldMaven</artifactId>
   <version>0.0.9</version>
   <packaging>jar</packaging>
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>com.test</groupId>
+            <artifactId>HelloWorldMaven</artifactId>
+            <version>0.0.9</version>
+            <configuration>
+                
+                <autoversionsubmodules>true</autoversionsubmodules>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 
   <name>HelloWorldMaven</name>
   <url>http://maven.apache.org</url>
