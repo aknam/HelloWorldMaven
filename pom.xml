@@ -13,7 +13,7 @@
             <artifactId>HelloWorldMaven</artifactId>
             <version>0.0.9</version>
             <configuration>
-                
+              <id>nexus-releases</id>
                 <autoversionsubmodules>true</autoversionsubmodules>
             </configuration>
         </plugin>
