@@ -18,33 +18,20 @@
   </properties>
   
 <distributionManagement>
-  <repositories>
+  
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
          <url>file:///var/lib/jenkins/test/</url>
        </repository>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://18.189.14.62:8081/repository/nexus_spring_snapshots/</url>
+    </snapshotRepository>
     <repository>
-         <id>snapshots</id>
-         <name>sample_releases</name>
-         <url>http://18.189.14.62:8081/repository/nexus_spring/</url>
-     </repository>
-   <snapshotRepository>
-         <id>snapshots</id>
-          <name>sample_snapshots</name>
-         <url>http://18.188.163.185:8081/repository/nexus_spring_snapshots/</url>
-        </snapshotRepository>
-    <repository>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
+      <id>nexus-releases</id>
+      <url>http://18.189.14.62:8081/repository/nexus_spring/</url>
     </repository>
-  
-       
-  </repositories>
  </distributionManagement>
 
   <dependencies>
