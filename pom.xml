@@ -5,10 +5,19 @@
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
   <version>0.0.9</version>
-  <configuration>
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>com.test</groupId>
+            <artifactId>HelloWorldMaven</artifactId>
+            <version>0.0.9</version>
+            <configuration>
                 <goals>deploy</goals>
                 <autoversionsubmodules>true</autoversionsubmodules>
-   </configuration>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
