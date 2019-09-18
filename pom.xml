@@ -12,11 +12,19 @@
             <groupId>com.test</groupId>
             <artifactId>HelloWorldMaven</artifactId>
             <version>0.0.9</version>
-            <configuration>
-              <id>nexus-releases</id>
-              <goals>deploy</goals>
-                <autoversionsubmodules>true</autoversionsubmodules>
-            </configuration>
+            <executions>
+                  <execution>
+                     <id>default-deploy</id>
+                     <phase>deploy</phase>
+                     <goals>
+                        <goal>deploy</goal>
+                     </goals>
+                  </execution>
+               </executions>
+               <configuration>
+                  <id>nexus-releases</id>
+                  <skipStaging>true</skipStaging>
+               </configuration>
         </plugin>
     </plugins>
 </build>
