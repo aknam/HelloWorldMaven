@@ -14,6 +14,7 @@
             <version>0.0.9</version>
             <configuration>
               <id>nexus-releases</id>
+              <goals>deploy</goals>
                 <autoversionsubmodules>true</autoversionsubmodules>
             </configuration>
         </plugin>
