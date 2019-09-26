@@ -30,11 +30,11 @@
 <repositories>
   <repository>
       <id>nexus-snapshots</id>
-      <url>http://18.219.158.179:8081/repository/nexus-snapshots/</url>
+      <url>http://18.221.174.210:8081/repository/nexus-snapshots/</url>
   </repository>
   <repository>
       <id>nexus-releases</id>
-      <url>http://18.219.158.179:8081/repository/nexus-release/</url>
+      <url>http://18.221.174.210:8081/repository/nexus-releases/</url>
   </repository>
   
 </repositories>
